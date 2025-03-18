@@ -45,11 +45,10 @@ The dataset was highly unbalanced, the positive class (frauds) account for 0.172
 For measuring the accuracy score of each of the algorithms, we calculated and plotted area under ROC curve. 
 #### ROC AOC of all the models:
 1. Isolation forest: 0.946
-2. Catboost: 0.973
-3. XG Boost: 0.99
-4. Logistic Regression: 0.771
-5. Gaussian Naive Bayes: 0.8919
-6. KNN Classifier: 0.50775
+2. XG Boost: 0.99
+3. Logistic Regression: 0.771
+4. Gaussian Naive Bayes: 0.8919
+5. KNN Classifier: 0.50775
 
 Concluding, XGBoost model including SMOTE applied on the model as the efficient model.
 
